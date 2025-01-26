@@ -1,0 +1,68 @@
+> SCAPS 3.3.10 ELIS-UGent: Version scaps3310.exe, dated 10-04-2021, 11:22:08
+> SCAPS Material parameters file, saved on 	26-01-2025 at 10:10:59
+> problem definition file loaded :
+> c:\Users\user\Desktop\cztscomp
+> last saved: 	26-01-2025 at 10:06:14
+> 
+
+material name : In2S3(N-type)
+d : 5.000e-02 [µm]
+v_th_n :	 1.000e+07	 1.000e+07	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+07	 1.000e+07	 0	 0	[cm/s]
+v_th_p :	 1.000e+07	 1.000e+07	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+07	 1.000e+07	 0	 0	[cm/s]
+eps :	    13.500000	    13.500000	    10.000000	    10.000000	    10.000000	    13.500000	    13.500000	 0	 0	[-]
+chi :	  4.500000	  4.500000	  1.000000	  1.000000	  1.000000	  4.500000	  4.500000	 0	 0	[eV]
+Eg :	  2.820000	  2.820000	  0.500000	  1.000000	  1.000000	  2.820000	  2.820000	 0	 0	[eV]
+Nc :	 2.200000e+17	 2.200000e+17	 1.000000e+01	 1.000000e+01	 1.000000e+01	 2.200000e+17	 2.200000e+17	 0	 0	[/cm^3]
+Nv :	 1.800000e+19	 1.800000e+19	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.800000e+19	 1.800000e+19	 0	 0	[/cm^3]
+mu_n :	 1.000000e+02	 1.000000e+02	 1.000000e-03	 1.000000e+00	 1.000000e+00	 1.000000e+02	 1.000000e+02	 0	 0	[cm^2/Vs]
+mu_p :	 2.500000e+01	 2.500000e+01	 1.000000e-03	 1.000000e+00	 1.000000e+00	 2.500000e+01	 2.500000e+01	 0	 0	[cm^2/Vs]
+Nd(uniform) :	 1.000000e+13	 1.000000e+13	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+13	 1.000000e+13	 0	 2	[/cm^3]
+Na(uniform) :	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0	 2	[/cm^3]
+Tunneling in layer: 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+Relative hole mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+K_rad :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[cm^3/s]
+c_n_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[cm^6/s]
+c_p_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^6/s]
+absorption grading :	  439.71	  439.71	  250.00	  250.00	    0.00	  439.71	  439.71	 0	 0	[nm]
+absorptionmodel pure A material (y=0) : from file
+absorptionfile pure A material (y=0) : CdS.abs
+absorption pure B material (y=1), model : from file
+absorption pure B material (y=1), file : CdS.abs
+
+srhrecombination
+
+type : acceptor ( 1 level(s) )
+energy distribution : single
+Reference for defect energy :  0 ; 0 = above EV (SCAPS<2.7); 1 = above Ei; 2 = below EC
+Ekar :  0.1000 [eV]
+Nt(uniform) :	 5.000000e+13	 1.000000e+14	 1.000000e+20	 1.000000e+00	 1.000000e+00	 5.000000e+13	 5.000000e+13	 0	 2	[/cm^3]
+leveltype : 0/-	
+sigma_n : 1.000e-13	[cm^2]
+sigma_p : 1.000e-13	[cm^2]
+Et :   0.100	[eV]
+
+next
+
+type : doubleacceptor ( 2 level(s) )
+energy distribution : single
+Reference for defect energy :  0 ; 0 = above EV (SCAPS<2.7); 1 = above Ei; 2 = below EC
+Ekar :  0.1000 [eV]
+Nt(uniform) :	 5.000000e+13	 1.000000e+14	 1.000000e+20	 1.000000e+00	 1.000000e+00	 5.000000e+13	 5.000000e+13	 0	 2	[/cm^3]
+leveltype : 0/-	-/2-	
+sigma_n : 1.000e-14	1.000e-14	[cm^2]
+sigma_p : 1.000e-14	1.000e-14	[cm^2]
+Et :   0.200	  0.200	[eV]
+
+next
+
+type : custom multilevel ( 1 level(s) )
+energy distribution : single
+Reference for defect energy :  0 ; 0 = above EV (SCAPS<2.7); 1 = above Ei; 2 = below EC
+Ekar :  0.1000 [eV]
+Nt(uniform) :	 5.000000e+13	 1.000000e+14	 1.000000e+20	 1.000000e+00	 1.000000e+00	 5.000000e+13	 5.000000e+13	 0	 2	[/cm^3]
+leveltype : 2-/3-	
+sigma_n : 1.000e-14	[cm^2]
+sigma_p : 1.000e-14	[cm^2]
+Et :   0.500	[eV]
+
