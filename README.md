@@ -1,9 +1,9 @@
-Design parameters for “Enhancing Cu2ZnSnS4 Solar Cell Efficiency through Antimony Substitution for Tin: A SCAPS-1D Simulation Study”
+Design parameters for “**Enhancing Cu2ZnSnS4 Solar Cell Efficiency through Antimony Substitution for Tin: A SCAPS-1D Simulation Study**”
 Author description: Dr. Sushmita Chaudhari is an Assistant Professor in Computer Science and Engineering department Brainware University Barasat, Kolkata India. She received her Ph.D. degree from Indian Institute of Technology Hyderabad. Her research interests include fabrication of semiconductor materials and its characterization and study their optoelectronics properties. Study different absorber materials for photovoltaic cells. Simulation and prediction of photovoltaic cell performance based on its layer by layer properties using SCAPS 1D.
 Author description: Dr. Kannan P.K. is a renowned professor and researcher working in the field of Materials Science and Engineering. He received his PhD from the Indian Institute of Technology Hyderabad. At present, he works as an Assistant Professor (Senior Grade) in the Department of Physics at PSG Institute of Technology and Applied Research, Coimbatore, India. Dr. Kannan’s research interest include photovoltaic materials, high entropy oxides, perovskite etc.
 Submission ID: 9125
-Resources and extra documentation for the manuscript " Enhancing Cu2ZnSnS4 Solar Cell Efficiency through Antimony Substitution for Tin: A SCAPS-1D Simulation Study " published in IEEE Latin America Transactions.
-Instruction for running the simulation
+**Resources and extra documentation for the manuscript " Enhancing Cu2ZnSnS4 Solar Cell Efficiency through Antimony Substitution for Tin: A SCAPS-1D Simulation Study " published in IEEE Latin America Transactions.
+Instruction for running the simulation**
 1.	Use SCAPS-1D to design the cell and generate the output.
 2.	All the script files required to generate each and individual layer mentioned in the manuscript are present at Github. (Full description of file: The folder contains material files used in SCAPS-1D, representing different layers of a thin-film solar cell for simulation purposes. Each file is named after the corresponding material and has the extension .material. Additionally, the folder includes a complete device file named cztscomp.)
 3.	Load the individual layer materials into the software and set the program.
